@@ -18,7 +18,7 @@ for l in lines:
             print(chapternumber)
             print(sections)
             print(chapteroutline)
-            #ßrun('0.1', chaptertitle=title, chapternumber=chapternumber, sections=sections, sectionoutline=chapteroutline)
+            run('0.1', chaptertitle=title, chapternumber=chapternumber, sections=sections, sectionoutline=chapteroutline)
             pass
         title =  l[3:]
         chapternumber = title.split(' ')[1].replace(':','')
