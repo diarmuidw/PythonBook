@@ -14,7 +14,7 @@ wxPython is another popular library for GUI development in Python. It is based o
 
 In addition to libraries and frameworks, GUI development also involves designing graphics and icons for use in the interface. This includes creating images, icons, and other graphical elements that will be used in the application.
 
-Overall, GUI development is an important aspect of software engineering and Python provides a variety of tools and libraries for creating effective and user-friendly graphical interfaces.# Chapter 7: GUI Development in Python
+Overall, GUI development is an important aspect of software engineering and Python provides a variety of tools and libraries for creating effective and user-friendly graphical interfaces.
 
 ## PyQT and wxPython Libraries
 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 In this example, we import the necessary modules from wxPython, create a wx.App instance, create a wx.Frame instance, set the window title and size, and show the window using the `MainLoop()` method of the wx.App instance.
 
-Both PyQT and wxPython provide a wide range of widgets and tools that can be used to create professional-looking GUI applications. The choice of which library to use will depend on the specific requirements of your project.# Chapter 7: GUI Development in Python
+Both PyQT and wxPython provide a wide range of widgets and tools that can be used to create professional-looking GUI applications. The choice of which library to use will depend on the specific requirements of your project.
 
 # Icon and Graphics Design
 
@@ -147,7 +147,7 @@ brush = wx.Brush('white')
 gc.SetPen(pen)
 gc.SetBrush(brush)
 gc.DrawRectangle(x, y, width, height)
-```# Chapter 7: GUI Development in Python
+```
 
 ## Creating a GUI Application
 

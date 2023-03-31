@@ -1,6 +1,11 @@
 #combine all together to make a book with links
 
-fout = open('book.md', 'w')
+fout = open('Pythonbook.md', 'w')
+
+fin = open('prefix.md','r')
+all_of_it = fin.read()
+fin.close()
+fout.write(all_of_it)
 
 fin = open('Chapters.md','r')
 all_of_it = fin.read()
@@ -8,6 +13,7 @@ fin.close()
 
 fout.write(all_of_it)
 fout.write('\n\n\n')
+
 
 for i in range(11):
     try:
@@ -17,6 +23,7 @@ for i in range(11):
         fin.close()
         fout.write(all_of_it)
         fout.write('\n\n\n')
+
     except Exception as ex:
         print(ex)
 fout.close()

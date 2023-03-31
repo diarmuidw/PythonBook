@@ -24,7 +24,7 @@ Here's an example of a "Hello, World!" program in Python:
 print("Hello, World!")
 ```
 
-This program prints the message "Hello, World!" to the console. As you can see, the syntax is straightforward, and the program requires only one line of code.# [Chapter 1: Python Basics](chapter1_0.1.md)
+This program prints the message "Hello, World!" to the console. As you can see, the syntax is straightforward, and the program requires only one line of code.
 
 # Installation and Setup
 
@@ -68,7 +68,7 @@ Python is available in most Linux distributions. You can install it using the pa
 sudo apt-get install python3
 ```
 
-Once the installation is complete, you can open a Terminal window and type `python3` to start the Python interpreter.# [Chapter 1: Python Basics](chapter1_0.1.md)
+Once the installation is complete, you can open a Terminal window and type `python3` to start the Python interpreter.
 
 ## Running Python Code
 
@@ -122,7 +122,7 @@ Open PyCharm and create a new project. Create a new file called `hello.py` and p
 Hello World
 ```
 
-In this chapter, we have seen how to run Python code using different methods. It is important to choose the method that suits our needs and preferences.# [Chapter 1: Python Basics](chapter1_0.1.md)
+In this chapter, we have seen how to run Python code using different methods. It is important to choose the method that suits our needs and preferences.
 
 # Basic Syntax
 
@@ -181,7 +181,7 @@ Python has a set of reserved keywords that have special meanings and cannot be u
 if, else, elif, while, for, break, continue, def, return, import, from, in, not, and, or, True, False, None
 ```
 
-Understanding these basic syntax rules is critical to writing Python code that is effective, efficient, and easy to read and understand.# [Chapter 1: Python Basics](chapter1_0.1.md)
+Understanding these basic syntax rules is critical to writing Python code that is effective, efficient, and easy to read and understand.
 
 # Variables and Data Types
 
@@ -283,7 +283,7 @@ And here are some invalid variable names:
 name@ = "John"  # Invalid: Contains an invalid character
 ```
 
-It is also good practice to use descriptive variable names that reflect the data they store. This makes your code more readable and easier to maintain.# [Chapter 1: Python Basics](chapter1_0.1.md)
+It is also good practice to use descriptive variable names that reflect the data they store. This makes your code more readable and easier to maintain.
 
 ## Control Statements
 
@@ -370,7 +370,7 @@ In this example, the output will be:
 3
 4
 5
-```# [Chapter 1: Python Basics](chapter1_0.1.md)
+```
 
 # Functions
 
@@ -427,7 +427,7 @@ In this example, the `square_and_cube()` function takes one parameter `num` and 
 
 Functions can be defined anywhere in the code, even inside other functions. We can also call a function recursively (a function that calls itself) to solve certain problems. 
 
-In conclusion, functions are essential building blocks of any programming language, and Python is no exception. They help us break down complex programs into smaller, more manageable pieces of code.# [Chapter 1: Python Basics](chapter1_0.1.md)
+In conclusion, functions are essential building blocks of any programming language, and Python is no exception. They help us break down complex programs into smaller, more manageable pieces of code.
 
 # Modules
 
@@ -516,7 +516,7 @@ say_hello("Bob")  # Output: "Hello, Bob!"
 
 ## Conclusion
 
-Modules are an essential part of Python programming. They allow you to organize your code into reusable, sharable, and extensible components. By using modules, you can write more efficient and maintainable code.# [Chapter 1: Python Basics](chapter1_0.1.md)
+Modules are an essential part of Python programming. They allow you to organize your code into reusable, sharable, and extensible components. By using modules, you can write more efficient and maintainable code.
 
 # Exceptions Handling
 

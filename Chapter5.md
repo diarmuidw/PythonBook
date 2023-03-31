@@ -68,7 +68,7 @@ It's important to note that when you're done working with a database, you should
 conn.close()
 ```
 
-Now that we know how to establish a connection to a database, let's move on to learning how to query the database.# Chapter 5: Working with Databases in Python
+Now that we know how to establish a connection to a database, let's move on to learning how to query the database.
 
 # Database Queries
 
@@ -122,7 +122,7 @@ In the example above, we use the `INSERT INTO` statement to add a new record to 
 
 After executing the query, we call the `commit()` method to save the changes to the database.
 
-Overall, querying a database using Python is a powerful tool for managing data within applications. By using SQL statements, we can easily retrieve and modify data from a variety of databases.# Chapter 5: Working with Databases in Python
+Overall, querying a database using Python is a powerful tool for managing data within applications. By using SQL statements, we can easily retrieve and modify data from a variety of databases.
 
 # Data Management using ORM
 

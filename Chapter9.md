@@ -92,7 +92,7 @@ model.fit(X_train, y_train)
 
 score = model.score(X_test, y_test)
 print(score)
-```# Chapter 9: Data Science with Python
+```
 
 # Numpy, Pandas, and Matplotlib Libraries
 
@@ -162,7 +162,7 @@ data = np.array([1, 2, 2, 3, 3, 3, 4, 4])
 plt.hist(data)
 ``` 
 
-In summary, Numpy, Pandas, and Matplotlib libraries are powerful tools for data science with Python. With these libraries, you can manipulate, analyze and visualize data with ease, allowing you to gain insights and make informed decisions from data.# Chapter 9: Data Science with Python
+In summary, Numpy, Pandas, and Matplotlib libraries are powerful tools for data science with Python. With these libraries, you can manipulate, analyze and visualize data with ease, allowing you to gain insights and make informed decisions from data.
 
 # Data Analysis
 
@@ -252,7 +252,7 @@ Output:
 
 ![Line Chart](line_chart.png)
 
-In conclusion, data analysis is a vital process in data science, and Python has multiple libraries that can be used to perform this task. Numpy, Pandas, and Matplotlib are just a few examples of the libraries that can be used to manipulate, analyze, and visualize data. By leveraging these libraries, data scientists can uncover valuable insights that can help drive business decisions.# Chapter 9: Data Science with Python
+In conclusion, data analysis is a vital process in data science, and Python has multiple libraries that can be used to perform this task. Numpy, Pandas, and Matplotlib are just a few examples of the libraries that can be used to manipulate, analyze, and visualize data. By leveraging these libraries, data scientists can uncover valuable insights that can help drive business decisions.
 
 ## Machine Learning
 

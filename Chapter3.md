@@ -105,7 +105,7 @@ Tuples are useful when we want to ensure that the data we are working with remai
 
 ## Conclusion
 
-Lists and Tuples are both useful data structures in Python. Lists are mutable and can be modified, while tuples are immutable and cannot be modified. Both can store elements of different data types and are useful in a variety of scenarios.# Chapter 3: Data Structures and Algorithms in Python
+Lists and Tuples are both useful data structures in Python. Lists are mutable and can be modified, while tuples are immutable and cannot be modified. Both can store elements of different data types and are useful in a variety of scenarios.
 
 # Dictionaries and Sets
 
@@ -175,7 +175,7 @@ difference = set1 - set2 # {1, 2}
 
 ## Conclusion
 
-Dictionaries and sets are powerful data structures that can make your code more efficient and readable. By using dictionaries, you can easily map keys to values, and by using sets, you can maintain a collection of unique elements.# Chapter 3: Data Structures and Algorithms in Python
+Dictionaries and sets are powerful data structures that can make your code more efficient and readable. By using dictionaries, you can easily map keys to values, and by using sets, you can maintain a collection of unique elements.
 
 ## Stack and Queues
 
@@ -218,7 +218,7 @@ first_element = queue.get()
 print(first_element) # 1
 ``` 
 
-Both stacks and queues are useful in solving many programming problems. Understanding how they work can help you choose the right data structure for a particular problem.# Chapter 3: Data Structures and Algorithms in Python
+Both stacks and queues are useful in solving many programming problems. Understanding how they work can help you choose the right data structure for a particular problem.
 
 # Recursion
 
@@ -258,7 +258,8 @@ def inorderTraversal(root):
 
 In this example, the base case is when `root` is `None`. The function returns an empty list in this case. Otherwise, the function concatenates the result of calling `inorderTraversal` on the left subtree, the value of the current node, and the result of calling `inorderTraversal` on the right subtree.
 
-Recursion can be an elegant solution to many programming problems, but it's important to use it judiciously as it may not always be the most efficient solution.# Chapter 3: Data Structures and Algorithms in Python
+Recursion can be an elegant solution to many programming problems, but it's important to use it judiciously as it may not always be the most efficient solution.
+
 
 # Sorting and Searching Algorithms
 
@@ -379,7 +380,8 @@ def binary_search(arr, x):
 
 ## Conclusion
 
-Sorting and searching algorithms are fundamental to computer science and have many practical applications. Understanding these algorithms is essential for any software engineer. In this section, we introduced some common sorting and searching algorithms implemented in Python. There are many more sorting and searching algorithms, and we encourage you to explore them further.# Chapter 3: Data Structures and Algorithms in Python
+Sorting and searching algorithms are fundamental to computer science and have many practical applications. Understanding these algorithms is essential for any software engineer. In this section, we introduced some common sorting and searching algorithms implemented in Python. There are many more sorting and searching algorithms, and we encourage you to explore them further.
+
 
 # Time and Space Complexity Analysis
 

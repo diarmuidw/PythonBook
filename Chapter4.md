@@ -101,7 +101,7 @@ else:
     file.close()
 ```
 
-In the above example, we use a `try`-`except` block to handle the `FileNotFoundError` that may occur if the file "example.txt" doesn't exist. If the file exists, we read its contents and close it. If it doesn't exist, we print an error message to the console.# Chapter 4: File Handling in Python
+In the above example, we use a `try`-`except` block to handle the `FileNotFoundError` that may occur if the file "example.txt" doesn't exist. If the file exists, we read its contents and close it. If it doesn't exist, we print an error message to the console.
 
 ## Text vs Binary Mode
 
@@ -155,7 +155,7 @@ Here, `binary_data` is a bytes object that contains the binary data we want to w
 
 ### Conclusion
 
-When working with files in Python, it's important to choose the correct mode for the data you're working with. Use text mode when working with human-readable text files, and binary mode when working with non-text data.# Chapter 4: File Handling in Python
+When working with files in Python, it's important to choose the correct mode for the data you're working with. Use text mode when working with human-readable text files, and binary mode when working with non-text data.
 
 ## CSV and JSON Files
 
@@ -259,7 +259,7 @@ finally:
     f.close()
 ```
 
-This code will handle both file not found and other types of errors, and will close the file in the `finally` block.# Chapter 4: File Handling in Python
+This code will handle both file not found and other types of errors, and will close the file in the `finally` block.
 
 ## Error Handling
 

@@ -17,6 +17,15 @@ max_tokens = 2000
 openai.api_key_path =  '../../openai.key'
 
 def run(version, chaptertitle, chapternumber, sections, sectionoutline):
+    try:
+        f = open('Chapter%s.md'%(chapternumber),'a')
+        f.write('# %s\n'%(chaptertitle))
+        f.close()
+    except Exception as ex:
+        print(ex)
+        pass
+
+
     for section in sections:
         completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -25,6 +34,7 @@ def run(version, chaptertitle, chapternumber, sections, sectionoutline):
                 {"role": "user", "content": "This is the outline of a chapter titled - %s: %s"%(chaptertitle, sectionoutline)},
                 {"role": "user", "content": "Write the text of the section titled '%s', adding examples as needed"%section},
                 {"role": "user", "content": "Generate the output in markdown format. Don't add an extraneous helpful comments"},
+                {"role": "user", "content": "Start the sections as a second level markdown level marked with ##"},
             ],
         max_tokens=max_tokens,
         temperature=0.8,
@@ -34,7 +44,6 @@ def run(version, chaptertitle, chapternumber, sections, sectionoutline):
 
         try:
             f = open('Chapter%s.md'%(chapternumber),'a')
-            f.write('# %s\n'%(chaptertitle))
             f.write(str(completion.choices[0].message.content))
 
             f.close()

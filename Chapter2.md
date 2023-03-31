@@ -121,7 +121,7 @@ for shape in shapes:
 
 ## Conclusion
 
-In this section, we introduced the fundamental concepts of OOP in Python, including objects, encapsulation, inheritance, and polymorphism. These concepts provide a powerful and flexible way to design and build complex applications.# Chapter 2: Object Oriented Programming in Python
+In this section, we introduced the fundamental concepts of OOP in Python, including objects, encapsulation, inheritance, and polymorphism. These concepts provide a powerful and flexible way to design and build complex applications.
 
 # Creating and Using Classes
 
@@ -177,7 +177,7 @@ Here, we have created a `Person` object named `person` and called the `greet` me
 
 ## Conclusion
 
-In this section, we learned how to create a class in Python and create objects from that class. We also learned how to add methods to a class that operate on the instance variables. Classes are a powerful way to organize and encapsulate code in Python, and they are a fundamental concept in Object-Oriented Programming.# Chapter 2: Object Oriented Programming in Python
+In this section, we learned how to create a class in Python and create objects from that class. We also learned how to add methods to a class that operate on the instance variables. Classes are a powerful way to organize and encapsulate code in Python, and they are a fundamental concept in Object-Oriented Programming.
 
 # Inheritance and Polymorphism
 
@@ -286,7 +286,7 @@ The output of the code would be:
 ```
 Meow!
 Woof!
-```# Chapter 2: Object Oriented Programming in Python
+```
 
 # Magic Methods
 
@@ -346,7 +346,7 @@ Now we can create an instance of the `Book` class and use these methods to custo
 >>> del book['price']
 ``` 
 
-In this example, we have used the `__str__()`, `__repr__()`, `__len__()`, `__getitem__()`, `__setitem__()`, and `__delitem__()` methods to provide customized behavior for the `Book` class.# Chapter 2: Object Oriented Programming in Python
+In this example, we have used the `__str__()`, `__repr__()`, `__len__()`, `__getitem__()`, `__setitem__()`, and `__delitem__()` methods to provide customized behavior for the `Book` class.
 
 # Properties and Class Methods
 
@@ -385,7 +385,7 @@ class Square:
 
 In the above example, `get_number_of_squares` is a class method that returns the number of squares that have been created. It does this by accessing the `number_of_squares` attribute of the `Square` class, which is incremented in the `__init__` method.
 
-In conclusion, properties and class methods are powerful tools in object-oriented programming that allow for flexible and efficient manipulation of class attributes and behavior.# Chapter 2: Object Oriented Programming in Python
+In conclusion, properties and class methods are powerful tools in object-oriented programming that allow for flexible and efficient manipulation of class attributes and behavior.
 
 # Abstract Classes and Interfaces
 

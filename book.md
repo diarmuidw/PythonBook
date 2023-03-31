@@ -1,4 +1,4 @@
-# Python Programming for Beginners by Diarmuid Wrenne et AI
+# Python Programming for Beginners by Diarmuid Wrenne 
 
 ## Prologue
 Python Programming for Beginners is a comprehensive guide that will help you learn the basics of Python programming language from scratch. This book is ideal for individuals who have no prior experience in programming and want to start their journey in Python programming.
@@ -15,15 +15,10 @@ Tight lines (A fishing expression but it works for code too!)
 
 Diarmuid Wrenne (diarmuid@bluekulu.com)
 
-## A Confesssion
+## Addendum 
 
-Nearly every line of this book was written by OpenAI.  I asked it to outline a 10 chapter book on python programming and then wrote code to take the outline and called the API to generate the chapters.
+OpenAI was used extensively to generate text and code for this book.
 
-The text and code are sound and are good enough to get a newbie started. It's a very small window into the future of content creation. 
-
-This could be used to "write" books on more specific areas such as REST API programming, general web programming, webrtc development, etc. I expect that these will require more tailoring of prompts, intervention and quality control. 
-
-[https://github.com/diarmuidw/PythonBook](https://github.com/diarmuidw/PythonBook)
 
 ## [Chapter 1: Python Basics](#chapter-1-python-basics-1)
 - Introduction to Python
@@ -95,6 +90,7 @@ This could be used to "write" books on more specific areas such as REST API prog
 - Introduction to GPT and BERT
 - Training and Fine-tuning Techniques for Large Language Models
 - Applications and Future of Large Language Models
+***
 
 
 
@@ -768,9 +764,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "<stdin>", line 3, in check_positive
 ValueError: Number must be positive
-```
-
-
+```***
 # Chapter 2: Object Oriented Programming in Python
 
 # Introduction to OOPs Concepts
@@ -1200,9 +1194,7 @@ In this example, we have defined an interface `Drawable` that defines a single a
 
 Note that Python does not have any keyword to denote an interface, and we use an abstract class with only abstract methods to define an interface.
 
-Abstract classes and interfaces are useful for defining a contract that classes must adhere to, ensuring consistency and providing a clear structure to our code.
-
-
+Abstract classes and interfaces are useful for defining a contract that classes must adhere to, ensuring consistency and providing a clear structure to our code.***
 # Chapter 3: Data Structures and Algorithms in Python
 
 # Lists and Tuples
@@ -1656,9 +1648,7 @@ This algorithm simply computes the sum of the first n integers without creating 
 
 ### Conclusion
 
-As a software engineer, it's important to understand time and space complexity in order to write efficient algorithms and work with data structures effectively. By using Big O notation, we can express the growth rates of functions and analyze their efficiency in terms of time and space.
-
-
+As a software engineer, it's important to understand time and space complexity in order to write efficient algorithms and work with data structures effectively. By using Big O notation, we can express the growth rates of functions and analyze their efficiency in terms of time and space.***
 # Chapter 4: File Handling in Python
 
 # Reading and Writing Files
@@ -1955,9 +1945,7 @@ except IOError:
 
 In this example, we use a `try-except` block to handle any errors that may occur while writing to the `myfile.txt` file. If there is an error while writing to the file, the `IOError` exception is raised and the message "Error writing to file" is printed.
 
-Error handling is an essential part of file handling in Python. It helps prevent program crashes due to unexpected errors and provides a fallback mechanism to handle them gracefully.
-
-
+Error handling is an essential part of file handling in Python. It helps prevent program crashes due to unexpected errors and provides a fallback mechanism to handle them gracefully.***
 # Chapter 5: Working with Databases in Python
 
 # Relational Databases Principals
@@ -2209,9 +2197,7 @@ This will delete the `Book` object with the specified title from the database.
 
 ## Conclusion
 
-ORM is a powerful tool that provides an intuitive way to interact with databases. SQLAlchemy is a popular ORM framework for Python that provides a set of high-level APIs to manage data in databases. With SQLAlchemy ORM, you can create models that represent database tables, add data, query data, update data, and delete data using high-level APIs.
-
-
+ORM is a powerful tool that provides an intuitive way to interact with databases. SQLAlchemy is a popular ORM framework for Python that provides a set of high-level APIs to manage data in databases. With SQLAlchemy ORM, you can create models that represent database tables, add data, query data, update data, and delete data using high-level APIs.***
 # Chapter 6: Web Development in Python
 
 # Introduction to Web Development
@@ -2481,9 +2467,7 @@ Here is an example of what the `index.html` template might look like:
 </html>
 ```
 
-In this template, we use Jinja2 syntax to render the form fields. The `hidden_tag` method is used to include a hidden field in the form to prevent cross-site request forgery (CSRF) attacks. The `name` field is rendered as a text input field, and the `submit` field is rendered as a submit button. When the user submits the form, the data is sent to the server for processing.
-
-
+In this template, we use Jinja2 syntax to render the form fields. The `hidden_tag` method is used to include a hidden field in the form to prevent cross-site request forgery (CSRF) attacks. The `name` field is rendered as a text input field, and the `submit` field is rendered as a submit button. When the user submits the form, the data is sent to the server for processing.***
 # Chapter 7: GUI Development in Python
 
 # Introduction to GUI Development
@@ -2708,9 +2692,7 @@ When you run this program, it will create a window with a label, text box, and b
 
 <img src="https://i.imgur.com/OVL4Z4n.png" alt="GUI Application Example" width="400"/> 
 
-This is just a simple example to get you started with GUI development. You can add more widgets and functionalities to make your GUI application more interactive and user-friendly.
-
-
+This is just a simple example to get you started with GUI development. You can add more widgets and functionalities to make your GUI application more interactive and user-friendly.***
 # Chapter 8: Networking with Python
 
 # Introduction to Networking
@@ -2948,9 +2930,7 @@ In the above example, we create a connection to an FTP server, login using the u
 
 ## Conclusion
 
-Python provides easy-to-use modules for working with HTTP and FTP protocols. These modules simplify the process of making requests, handling responses, and managing files over the protocols.
-
-
+Python provides easy-to-use modules for working with HTTP and FTP protocols. These modules simplify the process of making requests, handling responses, and managing files over the protocols.***
 # Chapter 9: Data Science with Python
 
 # Basics of Data Science with Python
@@ -3242,9 +3222,7 @@ Python provides numerous libraries for machine learning, including scikit-learn,
 
 For example, scikit-learn provides algorithms for classification, regression, and clustering tasks. TensorFlow is a popular library for deep learning tasks, such as image recognition and natural language processing. Keras is a high-level library that simplifies the process of building and training neural networks.
 
-In conclusion, machine learning is a powerful technique for making predictions and identifying patterns in data. Python provides a wealth of libraries and tools to make it easy to apply machine learning to your own projects.
-
-
+In conclusion, machine learning is a powerful technique for making predictions and identifying patterns in data. Python provides a wealth of libraries and tools to make it easy to apply machine learning to your own projects.***
 # Chapter 10 - Chapter 10: Introduction to Large Language Models
 
 # The Power of Language Modeling
@@ -3361,6 +3339,4 @@ Traditional approaches also have limited ability to understand the context of th
 
 Traditional approaches also have a limited vocabulary, meaning they struggle to understand new or rare words that are not part of their training data. For example, if a statistical model has been trained only on formal text, it may not recognize slang or informal language.
 
-These limitations have led to the development of new approaches to NLP, such as large language models like GPT and BERT, which use deep learning techniques to better understand natural language.
-
-
+These limitations have led to the development of new approaches to NLP, such as large language models like GPT and BERT, which use deep learning techniques to better understand natural language.***

@@ -19,7 +19,7 @@ else:
 
 Python has several built-in modules for network programming, including `socket`, `asyncio`, `ssl`, `urllib`, `httplib`, and `ftplib`. These modules can be used to implement network protocols like HTTP, FTP, SMTP, Telnet, and SSH.
 
-In this chapter, we will explore the `socket` module in more detail, which provides low-level network communication facilities. We will learn how to use the `socket` module to develop client-server applications, and also explore the `http.server` and `ftplib` modules to work with HTTP and FTP protocols.# Chapter 8: Networking with Python
+In this chapter, we will explore the `socket` module in more detail, which provides low-level network communication facilities. We will learn how to use the `socket` module to develop client-server applications, and also explore the `http.server` and `ftplib` modules to work with HTTP and FTP protocols.
 
 # Sockets Programming
 
@@ -110,7 +110,7 @@ while True:
 
 In the above example, we created a socket object and bound it to the address `localhost` and port `8000`. We then listened for incoming connections using the `sock.listen()` method. Once a connection is established, we receive data from the client using the `connection.recv()` method and send it back to the client using the `connection.sendall()` method.
 
-Sockets programming is a powerful tool for building networked applications in Python. It allows you to create both client and server applications that can communicate with each other over the network.# Chapter 8: Networking with Python
+Sockets programming is a powerful tool for building networked applications in Python. It allows you to create both client and server applications that can communicate with each other over the network.
 
 ## Setting up Clients and Servers
 
@@ -172,7 +172,7 @@ client_socket.close()
 
 In the code examples above, we create a server that listens on port 8080 and a client that connects to this server. Once the client sends data to the server, the server responds with the same data preceded by the text `Received:`. 
 
-This is a very basic example of networking with Python, but it demonstrates how we can set up a simple client-server architecture.# Chapter 8: Networking with Python
+This is a very basic example of networking with Python, but it demonstrates how we can set up a simple client-server architecture.
 
 # Working with HTTP and FTP
 

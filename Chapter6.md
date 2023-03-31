@@ -12,7 +12,7 @@ Python is a great language for web development because it has several frameworks
 
 In addition to frameworks, Python has several libraries that can be used for web development. Requests, for example, is a library that can be used to make HTTP requests to web servers from within a Python application.
 
-Web development is an exciting field that has a lot of potential. With Python, you can create dynamic web applications with ease, making it a great language for beginners and experienced developers alike.# Chapter 6: Web Development in Python
+Web development is an exciting field that has a lot of potential. With Python, you can create dynamic web applications with ease, making it a great language for beginners and experienced developers alike.
 
 # Setting up a Web Server
 
@@ -57,7 +57,7 @@ where `app` is the name of the Python file that contains your Flask application 
 
 The above command will start the Gunicorn server and your web application will be hosted on `http://localhost:8000`.
 
-That's it! You have successfully set up a web server for your Python web application.# Chapter 6: Web Development in Python
+That's it! You have successfully set up a web server for your Python web application.
 
 # Flask and Django Frameworks
 
@@ -100,7 +100,7 @@ urlpatterns = [
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 ```
 
-Both Flask and Django have their own strengths and weaknesses, so it's important to choose the right framework for the job. Flask is great for small to medium-sized web applications, while Django excels at building large-scale web applications.# Chapter 6: Web Development in Python
+Both Flask and Django have their own strengths and weaknesses, so it's important to choose the right framework for the job. Flask is great for small to medium-sized web applications, while Django excels at building large-scale web applications.
 
 # Creating a Web Application
 
@@ -169,7 +169,7 @@ class ContactForm(FlaskForm):
 
 In this example, we're defining a simple contact form with fields for name, email, and message, as well as a submit button. The `FlaskForm` class is used as a base class for our form, and the various fields are defined using `StringField` and `SubmitField` classes from the `wtforms` package.
 
-Overall, creating a web application in Python using a web framework like Flask or Django can be quite simple with the right tools and knowledge. With these basic concepts in mind, you'll be well on your way to building your own web applications in no time.# Chapter 6: Web Development in Python
+Overall, creating a web application in Python using a web framework like Flask or Django can be quite simple with the right tools and knowledge. With these basic concepts in mind, you'll be well on your way to building your own web applications in no time.
 
 # Templates and Forms
 
