@@ -7,6 +7,7 @@ all_of_it = fin.read()
 fin.close()
 
 fout.write(all_of_it)
+fout.write('\n\n\n')
 
 for i in range(11):
     try:
@@ -15,6 +16,7 @@ for i in range(11):
         all_of_it = fin.read()
         fin.close()
         fout.write(all_of_it)
+        fout.write('\n\n\n')
     except Exception as ex:
         print(ex)
 fout.close()

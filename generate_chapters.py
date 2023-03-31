@@ -3,7 +3,7 @@ from genchapter import run
 
 CHAPTER = '##'
 SECTION = '- '
-f = open('chapters.md', 'r')
+f = open('Chapters.md', 'r')
 lines = f.readlines()
 currentchaptertitle = ''
 sections = []
